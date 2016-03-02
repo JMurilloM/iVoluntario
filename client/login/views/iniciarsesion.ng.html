@@ -1,0 +1,81 @@
+<div class="row">
+<div ng-controller="login" class="col l6 offset-l3 m6 s12 offset-m3 card-panel">
+  <div class="row">
+    <h5><br></h5>
+    <div class="centrado">
+      <h5>Iniciar Sesion <br></h5>
+    </div>
+
+
+  <div class="container">
+
+    <div id="mtoast" class='mtoast' style='display:none'>Test</div>
+    <form class="col s12 m12 l12" ng-submit="login(username,password);">
+      <div class="row">
+        <div class="row centrado">
+          <div class="row">
+            <div class="input-field col m10 s12 offset-m1 l10 offset-l1">
+              <!-- <i class="material-icons prefix">perm_identity</i> -->
+              <input id="userInput" type="text" ng-model="username" class="validate" >
+              <label class="active" for="userInput">Usuario</label>
+            </div>
+          </div>
+    <div class="row">
+      <div class="input-field col m10 s12 offset-m1 l10 offset-l1">
+        <!-- <i class="material-icons prefix">vpn_key</i> -->
+        <input id="icon_telephone blue" ng-model="password" type="password" class="validate">
+        <label class="active" for="icon_telephone">Contraseña</label>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col m9 offset-m3 l6 offset-l3 s10 offset-s1">
+      <button class="grey darken-2 lighten-3 btn ajust-hundred waves-effect waves-light" id="loginBtn" >Iniciar</button>
+    </div>
+    </div>
+  
+    <div class="row">
+      <div class="col m9 offset-m3 l6 offset-l3 s10 offset-s1">
+        <a class="blue darken-2 btn ajust-hundred waves-effect waves-light" href="/registrousuario" >Registrarse</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col m12 l12 s12 line-margin">
+      <span class="set-line"></span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col m10 offset-m1 s10 offset-s1">
+        <a id="facebook-login" class="btn light-blue darken-4 ajust-hundred waves-effect waves-light" ng-click="">
+          <div class="fb-button centrado">
+            <!-- <div class="fb-button-icon offset-s1">
+              <img class="img-logo-fb" src="/images/facebook_f.png">
+            </div> -->
+            <div class="fb-button-text">
+              <div><strong>Iniciar</strong> con <strong>Facebook</strong></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="centrado row">
+    <h6 class="bleu blue-text text-darken-2"><a href="/olvidepass">¿Olvidaste tu contraseña?</a></h6>
+    </div>
+        </div>
+      </div>
+    </form>
+
+  <!-- </div> -->
+
+   </div>
+
+  
+
+  
+
+  
+</div>
+</div>
+</div>

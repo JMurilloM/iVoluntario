@@ -1,0 +1,56 @@
+  <div class="row body">
+    <form class="col s12">
+      <div class="row">
+        <br>
+        <div class="col s12 l6 offset-l3 m10 offset-m1 card-panel">
+          <div class="centrado">
+            <br>
+            <h5 >Regístrate</h5><br>
+          </div>
+          <div id="mtoast" class='mtoast' style='display:none'>Test</div>
+          <div class="row">
+            <div class="input-field col m6 s10 l6 offset-s1">
+            <i class="material-icons prefix">perm_identity</i>
+            <input id="icon_telephone blue" ng-model="user.name" type="text" class="validate">
+            <label for="icon_telephone">Nombre</label>
+          </div>
+            <div class="input-field col m6 s10 l6 offset-s1">
+            <i class="material-icons prefix">person_pin</i>
+            <input id="icon_telephone blue" ng-model="user.username" type="text" class="validate">
+            <label for="icon_telephone">Usuario</label>
+          </div>
+          </div>
+          <div class="row">
+          <div class="input-field col m6 s10 l6 offset-s1">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate" ng-model="user.email">
+            <label for="email">Correo</label>
+          </div>
+          <div class="input-field col m6 s10 l6 offset-s1">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone blue" ng-model="user.phone" type="number" class="validate" ngMinlength="7" ngMaxlength="7">
+            <label for="icon_telephone">Teléfono</label>
+          </div>
+          </div>
+          <div class="row">
+          <div class="input-field col m6 s10 l6 offset-s1">
+            <i class="material-icons prefix">vpn_key</i>
+            <input id="icon_telephone blue" ng-model="user.pass1" type="password" class="validate">
+            <label for="icon_telephone">Contraseña</label>
+          </div>
+
+          <div class="input-field col m6 s10 l6 offset-s1">
+            <i class="material-icons prefix">vpn_key</i>
+            <input id="icon_telephone blue" ng-model="user.pass2" type="password" class="validate">
+            <label for="icon_telephone">Repetir contraseña</label>
+          </div>
+          </div>
+          <br>
+          <div class="row centrado">
+            <a class=" light-blue darken-4 btn expand" ng-click="registrar(user)">Crear cuenta</a>
+          </div>
+          <br>
+         </div>
+      </div>
+    </form>
+  </div>

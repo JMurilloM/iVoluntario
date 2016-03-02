@@ -1,0 +1,27 @@
+<head>
+  <title>iVoluntario - holaa</title>
+  <base href="/">
+  <script src='http://connect.facebook.net/en_US/all.js'></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://materializecss.com/bin/materialize.js"></script>
+  <script src="http://materializecss.com/templates/starter-template/js/init.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="http://materializecss.com/templates/starter-template/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!-- Favicon and touch icons -->
+    <!-- <link rel="shortcut icon" href="/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/ico/apple-touch-icon-57-precomposed.png"> -->
+    <meta name="theme-color" content="#212121">
+</head>
+<body ng-app="iVoluntario">
+  <div style="position:relative">
+    <div ng-include="'client/footer/views/nav.ng.html'"> </div>
+    <div ui-view="page" class="container-principal"></div>
+    <div ng-include="'client/footer/views/footer.ng.html'"></div>
+  </div>
+</body>

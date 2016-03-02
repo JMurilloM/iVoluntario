@@ -1,0 +1,20 @@
+<br><br>
+<div class="col m8">
+              <div class="card-panel centrado" witdth="100%">
+                <span class="grey-text text-darken-2 centrado">Ingresa tu correo electronico para recuperar tu cuenta</span>
+              </div>
+  </div>
+<br><br>
+<div class="row">
+          <div class="input-field col m6 s10 l6 offset-s1 offset-m3 offset-l3 ">
+            <form action="/forgot" id="forgotPasswordForm" method="post" ng-submit="forgotpass(mail); mail='';">
+              <i class="material-icons prefix">email</i>
+              <input id="forgotPasswordEmail" ng-model="correo" type="text" name="email" class="validate" placeholder="Email Address">
+              <label for="icon_telephone">Correo</label>
+              <div class="row centrado">
+                <a class="btn-submit blue btn" type="submit" value="Send" ng-click="forgotpass()">Enviar</a>
+              </div>
+            </form>
+          </div>
+          </div>
+  <br>

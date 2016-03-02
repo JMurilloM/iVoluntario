@@ -1,0 +1,25 @@
+<div >
+
+  <nav class="blue darken-4" role="navigation">
+  <div class="nav-wrapper container">
+    <a href="">
+     <img id="logo-container" class="brand-logo img-logo" src="">
+    </a>
+  <ul class="right hide-on-med-and-down ttjmx-nav-bar">
+
+    <li ng-if="!currentUser" ><a href="/iniciarsesion">Iniciar</a></li>
+    <li ng-if="!currentUser" ><a href="/registrousuario">Registrarse</a></li>
+    <li ng-if="currentUser" ><a href="#" ng-click="logout()" class="logout">Cerrar</a></li>
+
+  </ul>
+  <ul id="slide-out" class="side-nav">
+    <li ng-if="!currentUser" ><a href="/iniciarsesion">Iniciar</a></li>
+    <li ng-if="!currentUser" ><a href="/registrousuario">Registrarse</a></li>
+    <li ng-if="currentUser" ><a href="#" ng-click="logout()" class="logout">Cerrar</a></li>
+
+
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+  </div>
+  </nav>
+</div>
