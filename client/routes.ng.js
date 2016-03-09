@@ -26,7 +26,7 @@ app.config(function($urlRouterProvider, $stateProvider, $locationProvider){
            url: '/registrousuario',
            views:{
              "page":{
-               templateUrl: 'client/login/views/registrousuario.ng.html',
+               templateUrl: 'client/login/views/register.ng.html',
                url: '/registrousuario',
                //controller: 'registrousuario'
              }
@@ -91,7 +91,7 @@ app.config(function($urlRouterProvider, $stateProvider, $locationProvider){
            url: '/iniciarsesion',
            views:{
              "page":{
-               templateUrl: "client/login/views/iniciarsesion.ng.html",
+               templateUrl: "client/login/views/index.ng.html",
                url:'/iniciarsesion',
                //controller: 'login'
              }
