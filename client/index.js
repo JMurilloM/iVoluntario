@@ -1,4 +1,4 @@
-$(window, document, undefined).ready(function() {
+/* $(window, document, undefined).ready(function() {
 
   $('input').blur(function() {
     var $this = $(this);
@@ -33,3 +33,4 @@ $(window, document, undefined).ready(function() {
   });
 
 });
+*/
